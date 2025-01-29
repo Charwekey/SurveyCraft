@@ -22,30 +22,55 @@
     <h1 class="head">Create Surveys In Minutes</h1>
     <p class="subheading">"Design, customize, and share surveys <br>in minutes—perfect for feedback, research, and more."</p>
 
-    <button class="call-to-action" id="open-modal">Get Started</button>
-        <div class="container-popup">
-    <div class="modal" id="modal">
-    <div class="modal-content">
-      <div>
-      <img src="imges/4957136.jpg" class="img"alt=""></div>
-      <div>
+    <button class="call-to-action" id="openModal">Get Started</button>
+    
+<div class="form-container" >
+  
+  <div class="form-box sign-up active">
+    <div class="img">
+      <img src="images/Mobile login-rafiki.png" alt="">
+    </div>
+
+    <div>
       <span class="close" id="closeModal">x</span>
-      <h2>
-        Sign Up
-      </h2>
-     <p class="link">By signing up you agree to the terms and conditions</p>
+      <h2>Sign Up</h2>
+      <p class="link">By signing up, you agree to the terms and conditions</p>
       <form>
-        <input type="text" placeholder="Full Name" required /> <br>
+        <input type="text" placeholder="Full Name" required /><br>
         <input type="email" placeholder="Email" required /><br>
-        <input type="password" placeholder="Password" required /> <br>
-
+        <input type="password" placeholder="Password" required /><br>
         <button type="submit" class="submit-button">Submit</button>
-
       </form>
-      <p class="link">Already have an account? <a href="">Login</a></p>
-      </div>
+      <p class="link">
+        Already have an account? <span class="switch-to-login">Log In</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Log In Form -->
+  <div class="form-box log-in">
+    <div class="log">
+    <div>
+      <span class="close" id="closeModal">x</span>
+      <h2>Log In</h2>
+      <form>
+        <input type="email" placeholder="Email or Username" required /><br>
+        <input type="password" placeholder="Password" required /><br>
+        <button type="submit" class="submit-button">Log In</button>
+      </form>
+      <p class="link">
+        Don't have an account? <span class="switch-to-signup">Sign Up</span>
+      </p>
+    </div>
+    <div class="img2">
+      <img src="images/Tablet login-cuate.png" alt="">
     </div>
     </div>
-</div> 
+
+  </div>
+</div>
+
+<script src="src/index.js"></script>
+<script src="src/signup.js"></script>
 </body>
 </html>
