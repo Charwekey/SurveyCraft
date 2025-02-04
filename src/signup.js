@@ -12,3 +12,19 @@ switchToLogin.addEventListener("click", () => {
 switchToSignup.addEventListener("click", () => {
   formContainer.classList.remove("show-login");
 });
+
+
+document
+  .getElementById("signupBtn")
+  .addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent default form submission
+
+    let nameValue = document.getElementById("nameInput").value;
+
+    if (nameValue.trim() !== "") {
+      localStorage.setItem("username", nameValue); // Store name in local storage
+      window.location.href = "pages/dashboard.html"; // Redirect to dashboard
+    } else {
+      alert("Please enter your full name before signing up.");
+    }
+  });

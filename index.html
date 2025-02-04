@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body class="home-container">
+  
 
     <div class="content">
 
@@ -24,7 +25,7 @@
 
     <button class="call-to-action" id="openModal">Get Started</button>
     
-<div class="form-container" >
+<div class="form-container" id="nameForm">
   
   <div class="form-box sign-up active">
     <div class="img">
@@ -36,17 +37,17 @@
       <h2>Sign Up</h2>
       <p class="link">By signing up, you agree to the terms and conditions</p>
       <form>
-        <input type="text" placeholder="Full Name" required /><br>
+        <input type="text" placeholder="Full Name" id="nameInput" required /><br>
         <input type="email" placeholder="Email" required /><br>
         <input type="password" placeholder="Password" required /><br>
-        <button type="submit" class="submit-button">Submit</button>
+        <button type="submit" class="submit-button" id="signupBtn">Submit</button>
       </form>
       <p class="link">
         Already have an account? <span class="switch-to-login">Log In</span>
       </p>
     </div>
   </div>
-
+ 
   <!-- Log In Form -->
   <div class="form-box log-in">
     <div class="log">
