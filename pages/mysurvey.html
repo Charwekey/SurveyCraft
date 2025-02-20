@@ -13,30 +13,42 @@
   <body>
     <div class="dashboard">
       <div class="nav">
-        
+           <div class="menu-icon" id="menu-icon">
+    &#9776;
+  </div>
+
+
+  <div class="dropdown" id="dropdown">
+    <a href="../index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="../pages/createsurvey.html">Create Survey</a>
+    <a href="../pages/about.html">About Us</a>
+    <a href="../pages/contact.html">Contact Us</a>
+    <a href="../pages/mysurvey.html">My Survey</a>
+  </div>
         <div class="col" id="logo">
           <h2>Survey<strong>Craft</strong>
           </h1>
         </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../index.html" id="ahref">Home</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="dashboard.html" id="ahref">Dashboard</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/createsurvey.html" id="ahref">Create Survey</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/mysurvey.html" id="ahref" class="active">My Survey</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/about.html" id="ahref"> About Us</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/contact.html" id="ahref"> Contact Us</a>
           </div>
-           <div class="col">
+           <div class="col" >
          <button id="openSettings" class="settings-btn">⚙️</button>
  </div>
  <div id="settingsSidebar" class="sidebar">
@@ -90,6 +102,32 @@
   </div>
     </div>   
      </div>
+
+
+
+
+ <h2 class="surveyyy">My Created Surveys</h2>
+<div id="surveyContainer"></div>
+
+<!-- Modal for Viewing Surveys -->
+<div id="surveyModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalSurveyTitle"></h2>
+        <div id="modalQuestionsContainer"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
  <footer>
   <div class="footer-container">
     <div class="footer-section">
@@ -144,6 +182,7 @@
 <script src="https://kit.fontawesome.com/9f7fe64ab7.js" crossorigin="anonymous"></script>
 
     </footer>
-    <script src="../src/setting.js"></script>
+    <script src="../src/mysurvey.js"></script>
+    <script src="../src/menu.js"></script>
   </body>
 </html>

@@ -13,27 +13,39 @@
   <body>
     <div class="dashboard">
       <div class="nav">
-        
+           <div class="menu-icon" id="menu-icon">
+    &#9776;
+  </div>
+
+
+  <div class="dropdown" id="dropdown">
+    <a href="../index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="../pages/createsurvey.html">Create Survey</a>
+    <a href="../pages/about.html">About Us</a>
+    <a href="../pages/contact.html">Contact Us</a>
+    <a href="../pages/mysurvey.html">My Survey</a>
+  </div>
         <div class="col" id="logo">
           <h2>Survey<strong>Craft</strong>
           </h1>
         </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../index.html" id="ahref">Home</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="dashboard.html" id="ahref" >Dashboard</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/createsurvey.html" id="ahref">Create Survey</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/mysurvey.html" id="ahref">My Survey</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/about.html" id="ahref" class="active"> About Us</a>
           </div>
-          <div class="col">
+          <div class="col" id="navigation">
             <a href="../pages/contact.html" id="ahref"> Contact Us</a>
           </div>
           <div class="col">
@@ -83,15 +95,45 @@
     </div>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+  
   <!-- Logout Confirmation Popup -->
   <div id="logoutConfirm" class="logout-popup hidden">
     <p>Are you sure you want to log out?</p>
     <button id="confirmLogout">Yes</button>
     <button id="cancelLogout">No</button>
   </div>
-          
-    </div>   
+ </div>   
      </div>
+     <div class="about-container">
+      <div class="every-container">
+        <div class="image-container">
+            <img src="../images/IMG-20250207-WA0015.jpg" alt="Your Picture">
+        </div>
+        
+        <div class="text-container">
+            <h2>About This Project (And My Picture 🤭)</h2>
+            <p>
+                So, you’re here, staring at this page… and probably my picture too. First of all, yes, that’s me—looking all serious like I just built the next big tech startup. But really, I’m just a passionate beginner who refused to give up!
+            </p>
+            <p>
+                This project started as a group work, but my teammates were on <strong>stealth mode</strong> (a fancy way of saying they weren’t doing anything 😂). Instead of abandoning it, I took ownership because <strong>practice makes perfect</strong>—and I believe that working on this project will <strong>enhance my skills</strong>.
+            </p>
+            <p>
+                I only built the <strong>front end</strong> of this project, but hey, that’s still progress! As I keep learning (and trying to master every programming language ever 😆), I’ll keep improving this site until it’s so functional, you’ll think it was built by a whole tech team!
+            </p>
+        </div>
+        </div>
+    </div>
  <footer>
   <div class="footer-container">
     <div class="footer-section">
@@ -149,5 +191,6 @@
     </footer>
     <script src="../src/dashboard.js"></script>
     <script src="../src/setting.js"></script>
+     <script src="../src/menu.js"></script>
   </body>
 </html>
