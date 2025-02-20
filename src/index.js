@@ -16,4 +16,10 @@ function closemodal(){
 
 close.addEventListener("click",closemodal)
 
+let closee = document.querySelector("#closeModal2");
+function closemodal2() {
+  let container = document.querySelector(".form-container");
+  container.style.display = "none";
+}
 
+closee.addEventListener("click", closemodal2);
