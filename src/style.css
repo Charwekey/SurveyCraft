@@ -506,7 +506,7 @@ strong {
   }
 }
 
-@media (max-width: 576px) min{
+@media (max-width: 576px) {
   .nav {
     padding: 10px;
   }
@@ -1560,7 +1560,7 @@ footer {
   }
 }
 
-@media (max-width: 372px) {
+@media (max-width: 372px) and (min-width:320px){
   .about-container {
     width: 250px;
     height: 500px;
@@ -1577,8 +1577,8 @@ footer {
     height: 50px;
   }
   .text-container {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 400px;
     font-size: 10px;
   }
 }
