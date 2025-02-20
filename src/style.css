@@ -346,14 +346,14 @@ input:hover {
 }
 
 
-@media (max-width:320px) {
+@media (max-width:440px) and (min-width:320px){
   .form-box input {
     width: 200px;
   }
   .form-container { 
     width: 300px;
-    left: 120px;
-    margin-top: 300px;
+    left: 200px;
+    margin-top: 70px;
     top: 80px;
   }
 
@@ -506,7 +506,7 @@ strong {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) min{
   .nav {
     padding: 10px;
   }
